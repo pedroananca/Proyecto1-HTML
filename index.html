@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeachApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos-mobile.css"  media = "screen and (max-width :500px)" >
+    <link rel="stylesheet" href="estilos.css"  media = "screen and (min-width :500px)" >
+    <link rel="icon"  href= "imagenes/logo.png">
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+        <h1 class ="principal">TeachApp</h1>
+
+       <nav><!--Menu para version desktop-->
+        <ul>
+            <li><a href="#Nosotros">Nosotros</a></li>
+            <li ><a href = "#servicios">Servicios</a></li>
+            <li><a href = "#contactanos">Contáctanos</a></li>
+        </ul>
+       </nav> 
+    </div>
+    </header>
+    
+    <div class = "whatsapp" >
+        <a href="https://api.whatsapp.com/send?phone=51954457918&text=%23proyectoHTML"><img src = "imagenes/whatsapp.png" alt = "whatsapp" width = 60px></a>
+    </div>
+
+       <div class = "boton"><!--Menu desplegable para version celular-->
+        <div class="dropdown m-0">
+            <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown">
+              Menú
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Nosotros">Nosotros</a></li>
+              <li><a class="dropdown-item" href="#servicios">Servicios</a></li>
+              <li><a class="dropdown-item" href="#contactanos   ">Contáctanos</a></li>
+            </ul>
+        </div>
+       </div> 
+      
+       <h1 id ="Nosotros">Nosotros</h1> 
+       <div id = "animacion" width = "200px">  
+       </div>
+       <div id ="contenedor" class = "container-fluid row bg-dark p-3">
+       <div id="imagen1"class ="col-sm-4 text-light">
+          <h2 class = "mision">Misión</h2>  
+          <img src ="imagenes/mision.jpg" alt ="mision" width = "100%" >
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi dolorum aliquid possimus recusandae dolorem at labore nisi necessitatibus molestiae sit ipsa eius, corporis eaque. Repudiandae aliquam enim aspernatur doloribus amet.</p>
+       </div> 
+       <div id ="imagen2" class ="col-sm-4 text-light ">
+        <h2 class = "mision">Visión</h2>  
+        <img src ="imagenes/vision.jpg" alt ="vision" width = "100%">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, distinctio aliquam fuga iste doloribus deserunt fugiat culpa impedit? Ipsum quos molestias aut sapiente aspernatur nobis exercitationem consequatur minus totam obcaecati?</p>
+       </div>
+       <div id="imagen3"class ="col-sm-4 text-light">
+        <h2 class = "mision">Valores</h2>  
+        <img src ="imagenes/valores.jpg" alt ="valores" width = "100%">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet officia deserunt sunt! Sapiente obcaecati ea est harum repellendus quisquam consequuntur necessitatibus atque neque modi excepturi, cum nulla, iure minus qui.</p>
+        
+       </div>
+    </div>
+       
+    <section>
+        <div id="movimiento">
+            <p id ="contenido-mov">Aprende a programar</p>
+
+     </div>
+     <h1 id = "servicios">Servicios</h1>
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active w-100">
+            <img src="imagenes/programacion.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>Programación C++</h5>
+              <p><strong>Some representative placeholder content for the first slide.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item w-100">
+            <img  src="imagenes/programacion.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block text-light ">
+              <h5>Programación Java</h5>
+              <p><strong>Some representative placeholder content for the second slide.</strong></p>
+            </div>
+          </div>
+          <div class="carousel-item w-100">
+            <img src="imagenes/programacion.jpg" class="d-block w-100  " alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>Base de datos</h5>
+              <p><strong>Some representative placeholder content for the third slide.</strong></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+    <footer>
+        <h1 id ="contactanos">Contáctanos</h1>
+        <div id="formulario" method ="get" action =""><!--Formulario para la version desktop-->
+          <form method = "get" action = "">
+            <label for ="nombre">Nombres:</label>
+            <input type = "text" id = "nombre" size=50>
+    
+            <label for ="apellidos">Apellidos:</label>
+            <input type = "text" id = "apellidos" size=50><br><br>
+            
+            <label for ="celular">Celular:</label>
+            <input type = "number" id = "celular">
+            
+            <label for ="correo">Correo:</label>
+            <input type = "email" id = "correo" size=50>
+
+            <label for ="fecha">Fech.Nac:</label>
+            <input type = "date" id = "fecha" ><br><br>
+            
+            <form id="formulario-genero">   
+                    <label >Género: </label>
+                    <input type="radio" id="varon" value="varón" name="genero">
+                    <label for="varon">Varón</label>
+                    <input type="radio" id="mujer" value="mujer" name="genero">
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" id="N" value="N" name="genero">
+                    <label for="N">Prefiero no especificar</label><br>
+
+            </form>
+                        
+            <input id = "enviar" type="submit" value="Enviar" onclick="alert('Datos enviados');"  >
+            
+          </form>
+        </div>
+        
+        <div id="formulario2" method ="get" action =""><!--formulario para la version celular-->
+            <form method = "get" action = "">
+              <label for ="nombre">Nombres:</label>
+              <input type = "text" id = "nombre" size=35><br>
+      
+              <label for ="apellidos">Apellidos:</label>
+              <input type = "text" id = "apellidos" size=35><br>
+              
+              <label for ="celular">Celular:</label><br>
+              <input type = "number" id = "celular"><br>
+              
+              <label for ="correo">Correo:</label>
+              <input type = "email" id = "correo" size=40><br><br>
+  
+              <label for ="fecha">Fech.Nac:</label>
+              <input type = "date" id = "fecha" ><br><br>
+              
+              <form id="formulario-genero">   
+                      <label >Género: </label><br>
+                      <input type="radio" id="varon" value="varón" name="genero">
+                      <label for="varon">Varón</label><br>
+                      <input type="radio" id="mujer" value="mujer" name="genero">
+                      <label for="mujer">Mujer</label><br>
+                      <input type="radio" id="N" value="N" name="genero">
+                      <label for="N">Prefiero no especificar</label><br>
+  
+              </form>
+                          
+              <input id = "enviar" type="submit" value="Enviar" onclick="alert('datos enviados')">
+              
+            </form>
+          </div>
+          
+    </footer>
+    <scrip src ="javascript.js"></scrip>
+</body>
+</html>

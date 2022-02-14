@@ -1,0 +1,131 @@
+ 
+.mision:hover{
+color: skyblue;
+}
+.mision{
+
+    text-align: center;
+
+}
+
+section h1, footer h1,#Nosotros {
+text-align: center;
+
+}
+div.boton{
+display:none;
+}
+
+header nav ul li{
+display:inline;
+padding: 10px;
+}
+header nav ul li a{
+text-decoration: none;
+color:white;
+}
+
+header nav {
+position:absolute;
+display:block;
+}
+header nav ul  {
+position:relative;  
+left:1000px;
+top:-50px;
+}
+header nav ul li a:hover{
+ color:aqua;
+
+}
+.whatsapp{
+position:fixed;
+z-index:1;
+top:70px;
+}
+#formulario{
+
+padding:20px;    
+}
+#enviar{
+position:absolute;
+left:500px;
+}
+#formulario{
+border:2px solid black;    
+padding:40px;
+background-color: azure;
+
+}
+#formulario2{
+
+display:none;    
+}
+header{
+position:relative;
+}
+.cabecera{
+position:fixed;
+display:block;
+background-color: black;
+padding-right: 10000px;
+z-index:1;
+}
+h1.principal{
+
+color:white;    
+padding-left:25px;
+padding-bottom:10px;
+
+}
+#Nosotros{
+padding-top:70px;
+}
+#carouselExampleCaptions{
+display:block;
+margin-left: auto;
+margin-right: auto;
+
+}
+#movimiento{
+width:100px;
+height:100px;
+position:relative;
+background-color: black;
+animation: movimiento 8s infinite;
+border-radius: 20px;
+
+}
+
+@keyframes movimiento{
+from{top:0px;left:20px}
+15%{top:300px;left:20px}
+30%{top:500px;left:20px}
+45%{top:500px;left:1200px}
+60%{top:300px;left:1200px}
+75%{top:0px;left:1200px}
+to{top:0px;left:20px}
+}
+@keyframes destello{
+0%{color:aqua;}
+50%{color:white;}
+
+}
+#contenido-mov{
+
+text-align: center;
+padding-top:20px;
+color:white;
+animation:destello 2s infinite;
+
+}
+section{
+display:block;
+padding-top: 50px;
+
+}
+#carouselExampleCaptions{
+
+width:75%
+
+}
